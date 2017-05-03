@@ -1,0 +1,6 @@
+
+
+
+
+python sensniff.py --non-interactive -d /dev/ttyUSB2 -b 460800
+sudo wireshark -i /tmp/sensniff

@@ -1,0 +1,36 @@
+[17:35:02 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[17:35:02 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux_64.config
+[17:35:02 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /home/hagar/.cooja.user.properties
+[17:35:44 - Thread-0] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[17:35:44 - Thread-0] [CompileContiki.java:140] [INFO] - > make udp-sink.sky TARGET=sky 
+[17:35:44 - Thread-0] [CompileContiki.java:140] [INFO] - > make udp-sender.sky TARGET=sky 
+[17:35:45 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[17:35:46 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:46 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:46 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:46 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:46 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:47 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:48 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:48 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:48 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:48 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:48 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:48 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/hagar/Dropbox/Masters/Trabajo De Grado/Contiki OS/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[17:35:48 - Thread-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[17:35:49 - Thread-0] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[17:35:59 - Thread-1] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1488407759087
+[17:40:15 - read input stream thread] [CollectView.java:237] [FATAL] - The CollectView application died!
+[17:40:24 - Thread-1] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1488408024869	Duration: 265782 ms	Simulated time 215314 ms	Ratio 0.8101150567006042
