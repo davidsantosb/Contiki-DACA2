@@ -480,6 +480,7 @@ dio_output(rpl_instance_t *instance, uip_ipaddr_t *uc_addr)
   unsigned char *buffer;
   int pos;
   int is_root;
+  extern int leaf_node;
   rpl_dag_t *dag = instance->current_dag;
 #if !RPL_LEAF_ONLY
   uip_ipaddr_t addr;
@@ -506,7 +507,10 @@ dio_output(rpl_instance_t *instance, uip_ipaddr_t *uc_addr)
   PRINTF("RPL: LEAF ONLY DIO rank set to INFINITE_RANK\n");
   set16(buffer, pos, INFINITE_RANK);
 #else /* RPL_LEAF_ONLY */
-  set16(buffer, pos, dag->rank);
+  if(!leaf_node)
+    set16(buffer, pos, dag->rank);
+  else
+    set16(buffer, pos, INFINITE_RANK);
 #endif /* RPL_LEAF_ONLY */
   pos += 2;
 
