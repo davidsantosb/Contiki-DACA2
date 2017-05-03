@@ -61,6 +61,7 @@ rpl_stats_t rpl_stats;
 #endif
 
 static enum rpl_mode mode = RPL_MODE_MESH;
+int leaf_node=0;
 /*---------------------------------------------------------------------------*/
 enum rpl_mode
 rpl_get_mode(void)

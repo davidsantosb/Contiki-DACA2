@@ -50,6 +50,14 @@
 #define DEBUG DEBUG_PRINT
 #include "net/ip/uip-debug.h"
 
+/* David's Includes*/
+#include "dev/button-sensor.h"
+#include "dev/sht11/sht11-sensor.h"
+#include "dev/light-sensor.h"
+#include "dev/leds.h"
+#include "sys/ctimer.h"
+#include "rpl/rpl-private.h"
+
 static struct uip_udp_conn *client_conn;
 static uip_ipaddr_t server_ipaddr;
 
@@ -210,6 +218,11 @@ PROCESS_THREAD(udp_client_process, ev, data)
 
   PROCESS_PAUSE();
 
+  /* Activate button sensor*/
+  SENSORS_ACTIVATE(button_sensor);
+  SENSORS_ACTIVATE(light_sensor);
+  SENSORS_ACTIVATE(sht11_sensor);
+
   set_global_address();
 
   PRINTF("UDP client process started\n");
@@ -224,11 +237,29 @@ PROCESS_THREAD(udp_client_process, ev, data)
   PRINT6ADDR(&client_conn->ripaddr);
   PRINTF(" local/remote port %u/%u\n",
         UIP_HTONS(client_conn->lport), UIP_HTONS(client_conn->rport));
+  /* Global Variable that makes all DIO messages send INFINITE RANK to 
+     His Neighboors so he can work as a leaf node*/
+  extern int leaf_node;
+  /* Declare a variable dag to copy al dag info*/
+  rpl_dag_t *dag;
 
   while(1) {
     PROCESS_YIELD();
     if(ev == tcpip_event) {
       tcpip_handler();
+    }
+
+    if (ev == sensors_event && data == &button_sensor) {
+      printf("Routing address\n");
+      /* print Its Father and all this sons*/
+      collect_common_net_print();
+      /* Print Neighbor list with all their ETX Value*/
+      rpl_print_neighbor_list();
+
+      leaf_node=1;
+      dag = rpl_get_any_dag();
+      rpl_reset_dio_timer(dag->instance);
+      printf("Entering leaf mode \n");
     }
   }
 
